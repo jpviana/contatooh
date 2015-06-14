@@ -5,3 +5,5 @@ npm install
 bower install
 
 Não esqueça de alterar os arquivos passport.js com seu CLIENT_ID e CLIENT_SECRET.
+
+[![Build Status](https://travis-ci.org/jpviana/contatooh.svg)](https://travis-ci.org/jpviana/contatooh)
