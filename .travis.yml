@@ -18,3 +18,11 @@ before_script:
 
 script:
 - karma start config/karma.config.js --single-run --browsers PhantomJS
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: 87fc3216-774d-4e09-8567-fd58a3530928
+  app: contatoohtes
+  on:
+    repo: jpviana/contatooh
