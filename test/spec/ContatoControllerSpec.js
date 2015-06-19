@@ -18,7 +18,7 @@ describe("ContatoController",function(){
 			$controller('ContatoController',{"$scope":$scope});
 			expect($scope.contato._id).toBeUndefined();
 	}));
-	/*it("Deve preencher um contato quando parametro de rota for passado",
+	t("Deve preencher um contato quando parametro de rota for passado",
 		inject(function($controller){
 			$controller('ContatoController',{
 				$routeParams:{contatoId: 1},
@@ -26,5 +26,5 @@ describe("ContatoController",function(){
 			});
 			$httpBackend.flush();
 			expect($scope.contato._id).toBeUndefined();
-		}));*/
+		}));
 });
