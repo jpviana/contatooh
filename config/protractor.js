@@ -5,8 +5,8 @@ exports.config = {
 		browser.sleep(500);
 		browser.driver.findElement(by.id('entrar')).click();
 		browser.sleep(500);
-		browser.driver.findElement(by.id('login_field')).sendKeys('jpviana');
-		browser.driver.findElement(by.id('password')).sendKeys('joao110591');
+		browser.driver.findElement(by.id('login_field')).sendKeys('');
+		browser.driver.findElement(by.id('password')).sendKeys('');
 		browser.driver.findElement(by.name('commit')).click();
 		browser.sleep(500);
 	}
