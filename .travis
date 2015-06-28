@@ -23,6 +23,12 @@ deploy:
   provider: heroku
   api_key:
     secure: 87fc3216-774d-4e09-8567-fd58a3530928
+<<<<<<< HEAD:.travis.yml
   app: contatoohtes
   on:
     repo: jpviana/contatooh
+=======
+  app: intense-dawn-5723
+  on:
+    repo: jpviana/contatooh
+>>>>>>> 86bab5f9dbe6c7230bbf594efc6068954b642ef2:.travis
