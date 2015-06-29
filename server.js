@@ -16,7 +16,7 @@ var app  = require('./config/express')();
 require('./config/passport')();
 require('./config/database.js')(url);
 
-http.createServer(app).listen(port, function(){
+http.createServer(app).listen(port,server_ip_address, function(){
   console.log('Express Server escutando na porta ' + 
               port);
 });
