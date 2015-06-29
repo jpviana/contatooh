@@ -1,7 +1,7 @@
 var port = process.env.OPENSHIFT_NODEJS_PORT || 3000;
 var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
 
-var url = 'mongodb://localhost/contatooh';
+var url = 'mongodb://root:root@ds047742.mongolab.com:47742/contatooh';
     if( process.env.OPENSHIFT_MONGODB_DB_PASSWORD ){
         url =   "mongodb://" +
                 process.env.OPENSHIFT_MONGODB_DB_USERNAME + ":" +
